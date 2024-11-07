@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMP Negeri 12 Malang</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- FontAwesome untuk ikon -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="STYLEE.css">
+</head>
+<body>
+
+<nav class="navbar navbar-fixed">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo Sekolah" style="height: 30px; display: inline-block; margin-right: 10px;">
+                SMP NEGERI 12 MALANG
+           
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="#home">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profil <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Visi dan Misi</a></li>
+                        <li><a href="#">Sejarah</a></li>
+                        <li><a href="#">Struktur Organisasi</a></li>
+                    </ul>
+                </li>
+                <li><a href="#information">Informasi</a></li>
+                <li><a href="#ppdb">PPDB</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bidang <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Bidang Akademik</a></li>
+                        <li><a href="#">Bidang Non-Akademik</a></li>
+                    </ul>
+                </li>
+                <li><a href="#library">Perpustakaan</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+    <div class="hero-text">
+        <h1>SMP NEGERI 12 MALANG</h1>
+        <h3>BINA MULYA WIYATA</h3>
+    </div>
+</div>
+<div class="banner"
+    <img src="image.png">
+</div>
+
+<div class="container sambutan-area">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="sambutan.png" alt="Sambutan Kepala Sekolah" class="sambutan-img"> <!-- Gambar sambutan -->
+        </div>
+        <div class="col-md-6">
+            <div class="sambutan-title">
+                <h2>Sambutan Kepala Sekolah SMP Negeri 12 Malang</h2>
+                <div class="bg-info" style="border-radius: 3rem; padding: 2rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+                    <p>M. SHODIQ S.Pd</p>
+                    <p>Assalamu'alaikum Wr.Wb</p>
+                    <p>Puji syukur Kami haturkan kehadirat Allah SWT karena hanya dengan rahmat dan hidayah-Nya semata, website SMP Negeri 12 Malang dapat meng-update informasi terbaru.</p>
+                </div>
+                
+                <a href="#" class="btn-baca-lengkap">Baca Lengkap</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container profile-area">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>PROFIL SEKOLAH</h2>
+            <p>Berikut merupakan profil sekolah secara keseluruhan.</p>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="card text-center">
+                        <td><img src="tentang smp 12.png" alt="Tentang SMPN 12" style="width: 70px;"></td>
+                        <div class="card-body">
+                            <h4>TENTANG SMPN 12</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="card text-center">
+                        <td><img src="misi.png" alt="Visi Misi dan Tujuan" style="width: 70px;"></td>
+                        <div class="card-body">
+                            <h4>VISI MISI DAN TUJUAN</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="card text-center">
+                        <td><img src="logo.png" alt="Logo dan Sejarah" style="width: 70px;"></td>
+                        <div class="card-body">
+                            <h4>LOGO DAN SEJARAH</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Kolom Pertama: Informasi Kontak -->
+            <div class="col-md-4">
+                <h4>SMP NEGERI 12 MALANG</h4>
+                <p><i class="fa fa-map-marker"></i> Jl. Slamet Supriyadi No.48, Bandungrejosari, Kec. Sukun, Kota Malang, Jawa Timur 65148</p>
+                <p><i class="fa fa-envelope"></i> Email: <a href="mailto:smpn12malangupdates@gmail.com">smpn12malangupdates@gmail.com</a></p>
+                <p><i class="fa fa-phone"></i> Telepon: <a href="tel:085231789302">085231789302</a></p>
+                <p><i class="fa fa-whatsapp"></i> <a href="https://wa.me/085231789302" style="color:white;"> WhatsApp</a></p>
+            </div>
+            <!-- Kolom Kedua: Tautan Cepat -->
+            <div class="col-md-4">
+                <h4>KUNJUNGI</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Informasi</a></li>
+                    <li><a href="#">Prestasi</a></li>
+                    <li><a href="#">Ruang Perpustakaan</a></li>
+                    <li><a href="#">Galeri</a></li>
+                </ul>
+            </div>
+            <!-- Kolom Ketiga: Media Sosial -->
+            <div class="col-md-4">
+                <h4>MEDIA SOSIAL</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i> Instagram</a>
+                    <a href="#" target="_blank"><i class="fa fa-youtube-play fa-2x"></i> YouTube</a>
+                    <a href="#" target="_blank"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
